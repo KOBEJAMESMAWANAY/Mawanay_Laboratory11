@@ -16,7 +16,7 @@ Number_In_Letters = int(input("Please enter any number: "))
 #initialize words that match with numbers=letters
 Match_Words = []
 for TEN_WORDS in WORDS:
-    if len(TEN_WORDS) .= Number_In_Letters:
+    if len(TEN_WORDS) >= Number_In_Letters:
         print_word_list.append(TEN_WORDS)
 
 #Displaying the results
